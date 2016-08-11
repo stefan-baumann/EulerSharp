@@ -10,6 +10,7 @@ namespace EulerSharp.Problem3
      * - x is a multiple of y if x % y == 0. So y is a factor of x if x % y == 0.
      * - A number x is prime if there is no number y which is a factor of x except 1 and x itself. So x % y may not be 0 for any possible value for y except 1 and x
      * - x && y evaluates to true if x and y are true (y is not evaluated if x is false)
+     * - While this solution should be easy to understand for everyone, it is not suited for this problem. See the EulerSharp.Problem3.Optimized project for an actually useful implementation.
      */
 
     public static class Program
