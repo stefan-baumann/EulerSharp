@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerSharp.Problem8", "Eule
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerSharp.Problem9", "EulerSharp.Problem9\EulerSharp.Problem9.csproj", "{6F6D9E84-07D7-4C41-B646-FDA09CE9CFDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerSharp.Problem10", "EulerSharp.Problem10\EulerSharp.Problem10.csproj", "{2B449264-CD60-43F2-816C-EA40B88D0C24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{6F6D9E84-07D7-4C41-B646-FDA09CE9CFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F6D9E84-07D7-4C41-B646-FDA09CE9CFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F6D9E84-07D7-4C41-B646-FDA09CE9CFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B449264-CD60-43F2-816C-EA40B88D0C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B449264-CD60-43F2-816C-EA40B88D0C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B449264-CD60-43F2-816C-EA40B88D0C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B449264-CD60-43F2-816C-EA40B88D0C24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
