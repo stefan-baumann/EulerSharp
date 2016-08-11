@@ -45,20 +45,5 @@ namespace EulerSharp.Problem8
             //Wait for a keypress before terminating the program (so that the user can read the output)
             Console.ReadKey(true);
         }
-
-        public static bool IsPrime(long candidate)
-        {
-            //Loop through every number from 2 to sqrt(candidate) as no number above the square root of the candidate can be a factor of it, if there wasn't one before that
-            for (long test = 2; test * test <= candidate; test++)
-            {
-                if (candidate % test == 0) //Check whether the current number is a factor of the candidate
-                {
-                    return false;
-                }
-            }
-
-            //If it ran through the check successfully it is definitely a prime
-            return true;
-        }
     }
 }
