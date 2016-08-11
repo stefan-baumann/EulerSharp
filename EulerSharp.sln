@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerSharp.Problem6.Optimiz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerSharp.Problem7", "EulerSharp.Problem7\EulerSharp.Problem7.csproj", "{DE9BD512-95C2-4214-B128-15727F3A76AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerSharp.Problem8", "EulerSharp.Problem8\EulerSharp.Problem8.csproj", "{46B1D097-EC12-4BA5-B0DD-A09B31421E54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{DE9BD512-95C2-4214-B128-15727F3A76AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE9BD512-95C2-4214-B128-15727F3A76AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE9BD512-95C2-4214-B128-15727F3A76AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B1D097-EC12-4BA5-B0DD-A09B31421E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B1D097-EC12-4BA5-B0DD-A09B31421E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B1D097-EC12-4BA5-B0DD-A09B31421E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B1D097-EC12-4BA5-B0DD-A09B31421E54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
