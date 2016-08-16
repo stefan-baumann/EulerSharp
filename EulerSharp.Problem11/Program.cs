@@ -59,6 +59,7 @@ namespace EulerSharp.Problem11
             {
                 for (y = 0; y < 20; y++)
                 {
+                    //Compute the biggest local product and check whether it is bigger than the last biggest one
                     int biggestLocalProduct = BiggestProductStartingFrom(grid, x, y);
                     if (biggestLocalProduct > biggestProduct)
                     {
@@ -69,7 +70,7 @@ namespace EulerSharp.Problem11
 
 
             //Write the result to the console
-            Console.WriteLine("The sum of all primes below 2 million is " + biggestProduct);
+            Console.WriteLine("The greatest product of 4 adjacent numbers in the 20x20 grid is " + biggestProduct);
 
             //Wait for a keypress before terminating the program (so that the user can read the output)
             Console.ReadKey(true);
